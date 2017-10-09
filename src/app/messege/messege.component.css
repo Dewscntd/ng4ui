@@ -1,0 +1,79 @@
+p {
+    margin: 0;
+    display: inline-flex;
+    align-self: center
+}
+
+.task-avatar {
+    height: 48px;
+    width: 48px;
+    background-image: url("../../assets/photos/user-avatar.png");
+}
+
+.avatar {
+    display: inline-flex;
+    order: 1;
+    flex-grow: 1;
+    margin-left: 32px
+}
+
+.task-body {
+    display: inline-flex;
+    order: 2;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 13
+}
+
+.list-group-item {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 480px;
+    border: transparent;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%
+}
+
+.main {
+    font-size: 14px;
+    width: 100%
+}
+
+.time-stemp {
+    color: #6b6f7b;
+    opacity: 0.7;
+    margin-left: 5px
+}
+
+.sub {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%
+}
+
+.material-icons {
+    font-size: 20px;
+}
+
+.list-group-item {
+    padding: 0
+}
+
+.nav-link {
+    padding: 0;
+    margin: 5px
+}
+
+a {
+    color: #8492af
+}

@@ -1,0 +1,32 @@
+<div class="column left-menu" [ngClass]="{ 'collapsed': menuCollapsed }" id="left ">
+    <div class="left-menu__inner">
+        <div class="logo top-left">
+            <img src="../assets/photos/logo.png" alt=""> Merkury
+        </div>
+        <div class="bottom menu-background">
+            <app-side-nav-menu></app-side-nav-menu>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="column center" id="right">
+    <div class="top-right">
+        <app-header-menu></app-header-menu>
+    </div>
+
+    <div class="bottom main-background">
+        <div class="top-graphs">
+            <app-sales-card class="graph"></app-sales-card>
+            <app-reports-graph class="graph"></app-reports-graph>
+        </div>
+
+        <div class="bottom-cards">
+            <app-tasks class="card" style="border: transparent"></app-tasks>
+            <app-messages class="card" style="border: transparent"></app-messages>
+            <app-activities class="card" style="border: transparent"></app-activities>
+        </div>
+
+    </div>
+</div>

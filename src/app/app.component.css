@@ -1,0 +1,96 @@
+.column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    flex-grow: 1;
+    padding: 10px 0;
+    flex-direction: row;
+    overflow: auto;
+    height: 100%
+}
+
+.menu-background {
+    background: #0e1a35
+}
+
+.top-right {
+    display: inline-flex;
+    flex-shrink: 0;
+    background-color: #fff;
+    color: white;
+    padding: 20px;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc
+}
+
+#right {
+    background-color: #f6f7fa;
+    overflow-x: scroll
+}
+
+.left-menu {
+    transition: all .3s ease-in;
+    overflow: hidden;
+    width: 430px;
+}
+
+.left-menu .left-menu__inner {
+    width: 200px;
+}
+
+.left-menu__inner {
+    height: 100%;
+}
+
+.left-menu.collapsed {
+    width: 0;
+    opacity: 0;
+}
+
+.top-left {
+    flex-shrink: 0;
+    background-color: #0e1a35;
+    color: white;
+    padding: 17px 10px;
+    font-size: 24px;
+    line-height: 3
+}
+
+.top-graphs {
+    display: inline-flex;
+    padding: 20px
+}
+
+.bottom-cards {
+    display: inline-flex
+}
+
+.card {
+    width: 470px;
+    height: 100%;
+    margin: 20px;
+    flex-shrink: 1;
+    background: #fff
+}
+
+.graph {
+    padding: 20px;
+    flex-direction: row;
+    display: inline-flex
+}
+
+.card-title {
+    margin: 0 0;
+}
+
+app-header-menu {
+    flex: 1 1 auto;
+}
+
+img {
+    margin: 0 5px;
+}

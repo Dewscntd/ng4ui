@@ -1,0 +1,58 @@
+.notif-blue {
+    background: #5384ff
+}
+
+.notif-red {
+    background: #f83c7b
+}
+
+.notif-red,
+.notif-blue {
+    padding: 5px
+}
+
+md-card-header {
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    display: flex;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+i {
+    display: inline-flex;
+    margin: 5px
+}
+
+.card-title {
+    display: flex;
+    height: 110px;
+}
+
+.card-body {
+    padding: 0
+}
+
+app-messege {
+    border: 1px solid #ccc;
+    height: 110px;
+    width: 470px;
+    display: flex
+}
+
+h4 {
+    line-height: 2.1;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 5px;
+    height: 110px;
+    align-items: center
+}
+
+.title {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 32px;
+}

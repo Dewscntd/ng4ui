@@ -1,0 +1,50 @@
+.btn {
+    border-radius: 50px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.mt-icons {
+    padding: 0 17px;
+    color: black;
+    line-height: 2;
+    font-weight: bold
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    outline: none
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.header-actions {
+    display: inline-flex
+}
+
+.form-control {
+    padding: .5rem 0;
+    font-size: 1rem;
+    line-height: 2.25;
+    border: none
+}
+
+.col-2 {
+    padding: 0px 0px
+}
+
+.col-10 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.form-group {
+    display: flex;
+    margin: 0
+}
