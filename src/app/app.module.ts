@@ -8,7 +8,7 @@ import { SalesCardComponent } from './sales-card/sales-card.component';
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule } from '@angular/material';
 import { ReportsGraphComponent } from './reports-graph/reports-graph.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -37,11 +37,11 @@ import { LayoutService } from './layout-service.service';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MdButtonModule,
-    MdCardModule,
-    MdMenuModule,
-    MdToolbarModule,
-    MdIconModule
+    MatButtonModule,
+    MatCardModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatIconModule
 
   ],
   providers: [LayoutService],
