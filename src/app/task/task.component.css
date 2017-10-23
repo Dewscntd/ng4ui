@@ -14,7 +14,7 @@ p {
     display: inline-flex;
     order: 1;
     flex-grow: 1;
-    margin-left: 32px
+    margin: 32px
 }
 
 .more {
@@ -25,16 +25,13 @@ p {
 }
 
 .more>i {
-    font-size: 20px
+    font-size: 51px;
+    opacity: 0.4;
 }
 
 .task-body {
-    display: inline-flex;
     order: 2;
-    flex-grow: 2;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 13
+    align-self: center
 }
 
 .spacer {

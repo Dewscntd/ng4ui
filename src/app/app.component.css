@@ -62,7 +62,6 @@
 
 .top-graphs {
     display: inline-flex;
-    padding: 20px
 }
 
 .bottom-cards {
@@ -78,9 +77,10 @@
 }
 
 .graph {
-    padding: 20px;
+    margin: 20px;
     flex-direction: row;
-    display: inline-flex
+    display: inline-flex;
+    background-color: #fff
 }
 
 .card-title {
@@ -93,4 +93,11 @@ app-header-menu {
 
 img {
     margin: 0 5px;
+}
+
+.wellcome {
+  font-size: 34px;
+  font-weight: 600;
+  display: flex;
+  padding: 0 38px;
 }

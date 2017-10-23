@@ -9,6 +9,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class AppComponent {
   title = 'app';
+  name = 'Michael';
 
   menuCollapsed = false;
   constructor(private layoutService: LayoutService) {
